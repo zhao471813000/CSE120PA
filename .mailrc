@@ -1,0 +1,18 @@
+# set the following options:
+#
+# ask    Prompt for Subject header when sending a message
+# askcc  Prompt for additional carbon copies at the end of the message
+# dot    A period (.) alone on a line will terminate message
+# crt 24 Display messages in 24 line screenfuls.
+#
+set ask askcc dot crt 24
+#
+# uset the following options:
+#
+# keep   Do not delete system mailbox if empty 
+# metoo  When mailing to an alias list of which sender is member,
+#        allow copy to sender.
+unset keep metoo
+#
+# The comments in this file begin with a number sign (#) in the
+# first column, and may be removed.
